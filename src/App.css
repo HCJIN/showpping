@@ -9,9 +9,13 @@
     margin-top: 100px;
 }
 
-.login-page-button {
-    background-color: #fff;
-    color: #000;
+.login-menu > button {
+    background-color: red;
+    border: none;
+}
+
+.login-menu > button:hover {
+    background-color: orange;
 }
 
 .login-button {
@@ -84,4 +88,10 @@
 
 .input:focus {
     outline: none;
+}
+
+.card-img {
+    height: 100%;
+    display: block;
+    
 }
