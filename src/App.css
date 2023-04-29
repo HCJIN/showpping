@@ -2,12 +2,25 @@
 
 }
 
+.login-menu {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.login-page-button {
+    background-color: #fff;
+    color: #000;
+}
+
 .login-button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-top: 10px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .login-button * {
